@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "esm-loader": "^0.1.0",
+    "node-stream": "^1.7.0"
+  }
+}
