@@ -1,8 +1,43 @@
 * {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
+  margin-left: 10px;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(243, 243, 243);
 }
 
 .img {
   border-radius: 20px;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+h4 {
+  font-weight: 200;
+}
+
+article {
+  padding: 30px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+img {
+  border-radius: 20px;
+}
+
+.button {
+  border-style: none;
+  background-color: white;
+  color: rgb(161, 161, 255);
+  margin: 0px;
 }
