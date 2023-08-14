@@ -29,3 +29,14 @@ ul {
   padding: 5px 14px;
   border-radius: 5px;
 }
+
+.navigation__menu {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  /* align-items: flex-start; */
+  /* align-items: center; */
+}
+
+/* - [ ] The links should be horizontally spaced as far apart as possible.
+- [ ] The first link should be placed at the beginning and the last link at the end. */
