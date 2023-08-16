@@ -39,3 +39,10 @@ body {
 .services__text {
   color: white;
 }
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* random test */
