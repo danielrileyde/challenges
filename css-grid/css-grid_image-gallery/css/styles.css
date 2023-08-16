@@ -58,3 +58,24 @@ body {
   color: white;
   text-decoration: none;
 }
+
+.teaser-grid {
+  display: grid;
+  grid-template-areas: "sp su" "au wi";
+}
+
+.teaser-grid__teaser--spring {
+  grid-area: "sp";
+}
+
+.teaser-grid__teaser--summer {
+  grid-area: "su";
+}
+
+.teaser-grid__teaser--autumn {
+  grid-area: "au";
+}
+
+.teaser-grid__teaser--winter {
+  grid-area: "wi";
+}
