@@ -10,7 +10,11 @@ console.clear();
 */
 
 // --v-- write your code here --v--
-
+const titleName = "Random Title";
+const textContent = "Egoistic Bullshit";
+const numberOfLikes = 1000;
+const userName = "Rod Steel";
+const isReported = false;
 // --^-- write your code here --^--
 
 /*
@@ -18,5 +22,14 @@ console.clear();
 */
 
 // --v-- write your code here --v--
+console.log(titleName);
+console.log(textContent);
+console.log(numberOfLikes);
+console.log(userName);
+console.log(isReported);
+
+let numOfLike = 1000;
+numOfLike++;
+console.log(numOfLike);
 
 // --^-- write your code here --^--
