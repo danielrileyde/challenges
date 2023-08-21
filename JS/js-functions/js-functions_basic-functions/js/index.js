@@ -9,7 +9,10 @@ console.clear();
 */
 
 // --v-- write your code here --v--
-
+let book_title = "The Piano Teacher";
+let author = "Elfriede Jelinek";
+let rating = 5;
+let numOfSales = 10000;
 // --^-- write your code here --^--
 
 /*
@@ -24,8 +27,18 @@ Increase the number of sales and change the rating of the book afterwards.
 Then log all variables to the console again.
 */
 
-// --v-- write your code here --v--
+// --v-- write your code here --v--console.log(book_title, author, rating, numOfSales);
+console.log(book_title);
+console.log(author);
+console.log(rating);
+console.log(numOfSales);
 
+// rating = 4.1;
+// numOfSales = 20000;
+// console.log(book_title);
+// console.log(author);
+// console.log(rating);
+// console.log(numOfSales);
 // --^-- write your code here --^--
 
 /*
@@ -37,5 +50,13 @@ Then log all variables to the console again.
 */
 
 // --v-- write your code here --v--
-
+function logBookData(book_title, author, rating, numOfSales) {
+  console.log(book_title);
+  console.log(author);
+  console.log(rating);
+  console.log(numOfSales);
+}
+logBookData(book_title, author, 3, 50000);
+logBookData(book_title, author, 4.9, 60000);
+logBookData(book_title, author, 4.5, 70000);
 // --^-- write your code here --^--
