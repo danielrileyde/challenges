@@ -21,20 +21,78 @@
           <legend>Enter your information</legend>
 
           <!-- Email: label & input -->
-
-          <!-- Date: label & input -->
+          <form>
+            <label for="email-address">Email Address</label>
+            <input
+              type="email"
+              placeholder="yourname@example.com"
+              name="email-address"
+              id="email-address"
+            />
+            <!-- Date: label & input -->
+            <label for="arrival-date">Date of Arrival</label>
+            <input type="date" name="arrival-date" id="arrival-date" />
+          </form>
 
           <fieldset class="radio-options">
             <legend>Which one of these animals would you like to visit?</legend>
 
             <!-- Radio Buttons: labels & inputs -->
+            <label for="relaxed sloths">Relaxed Slothes</label>
+            <input
+              type="radio"
+              name="special-attraction"
+              id="relaxed sloths"
+              value="sloths"
+            />
+
+            <label for="jumpy kangaroos">Jumpy Kangaroos</label>
+            <input
+              type="radio"
+              name="special-attraction"
+              id="jumpy kangaroos"
+              value="kangaroos"
+            />
+
+            <label for="thieving racoons">Thieving Racoons</label>
+            <input
+              type="radio"
+              name="special-attraction"
+              id="thieving racoons"
+              value="racoons"
+            />
           </fieldset>
 
           <!-- Textarea: label & input -->
+          <label for="visitor-concerns">Concerns</label>
+          <textarea
+            name="visitor-concerns"
+            placeholder="Ask your questions here!"
+            id="visitor-concerns"
+          ></textarea>
 
           <!-- Two Checkboxes: labels & inputs -->
 
+          <label for="accept-terms-conditions"
+            >I accept the terms and conditions
+            <input
+              type="checkbox"
+              name="accept-terms-conditions"
+              id="accept-terms-conditions"
+          /></label>
+
+          <label for="sign-up-newsletter"
+            >Sign up to out newsletter
+            <input
+              type="checkbox"
+              name="sign-up-newsletter"
+              id="sign-up-newsletter"
+            />
+          </label>
+
           <!-- Two Buttons: reset & submit -->
+          <button type="'reset">Reset Form</button>
+          <button type="submit">Send</button>
         </fieldset>
       </form>
     </section>
