@@ -18,5 +18,9 @@ const programmingLanguages = [
 ];
 
 // --v-- write/change code here --v--
-
+for (let language of programmingLanguages) {
+  let newLi = document.createElement("li");
+  newLi.textContent = language;
+  ol.append(newLi);
+}
 // --^-- write/change code here --^--
