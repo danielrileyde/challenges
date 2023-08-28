@@ -1,7 +1,7 @@
 {
-  "name": "js-loops_forof-list",
+  "name": "js-loops_forin-select-nav",
   "version": "0.0.0-unreleased",
-  "description": "Creating a list of programming languages challenge",
+  "description": "For in loop challenge with select navigation",
   "main": "index.html",
   "scripts": {
     "lint": "npx eslint .",
