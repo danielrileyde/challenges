@@ -5,14 +5,19 @@ const container = document.querySelector('[data-js="card-container"]');
 const queryInput = document.querySelector('[data-js="query-input"]');
 
 queryInput.addEventListener("input", (event) => {
+  event.preventDefault();
   container.innerHTML = "";
 
   const searchString = event.target.value;
 
-  const foundCountry = null;
+  const foundCountries = countries.filter((country) =>
+    country.name.toLowerCase().startsWith(searchString.toLowerCase())
+  );
 
-  if (foundCountry) {
-    const countryElement = Country(foundCountry);
-    container.append(countryElement);
+  if (foundCountries) {
+    foundCountries.map((country) => {
+      const countryElement = Country(country);
+      container.append(countryElement);
+    });
   }
 });
